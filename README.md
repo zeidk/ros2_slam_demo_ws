@@ -1,6 +1,8 @@
 
 # ROS 2 SLAM Demo (Python) — Preprocessing, Feature Extraction, Scan Matching
 
+[![Documentation Status](https://readthedocs.org/projects/ros2-slam-demo/badge/?version=latest)](https://ros2-slam-demo.readthedocs.io/en/latest/?badge=latest)
+
 This workspace contains three ROS 2 Python packages aligned with lecture 2C (SLAM Frontend) sections:
 - `slam_preprocessing`: filters and deskews raw point clouds
 - `slam_feature_extraction`: extracts features (e.g., corners/planes) from filtered clouds
