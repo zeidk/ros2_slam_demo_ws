@@ -1,0 +1,9 @@
+
+icp_node:
+  ros__parameters:
+    input_topic: "/points_filtered"
+    aligned_topic: "/points_aligned"
+    odom_topic: "/odom"
+    max_iters: 20
+    frame_id: "base_link"
+    odom_frame_id: "odom"

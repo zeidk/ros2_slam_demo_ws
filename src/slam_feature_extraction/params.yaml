@@ -1,0 +1,9 @@
+
+feature_node:
+  ros__parameters:
+    input_topic: "/points_filtered"
+    corners_topic: "/keypoints/corners"
+    planes_topic: "/keypoints/planes"
+    corner_curvature_thresh: 0.1
+    plane_curvature_thresh: 0.01
+    frame_id: "base_link"

@@ -1,0 +1,9 @@
+
+preprocess_node:
+  ros__parameters:
+    input_topic: "/points_raw"
+    output_topic: "/points_filtered"
+    voxel_size: 0.2
+    passthrough_z_min: -3.0
+    passthrough_z_max: 3.0
+    frame_id: "base_link"
