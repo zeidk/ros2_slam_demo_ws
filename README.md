@@ -3,6 +3,15 @@
 
 [![Documentation Status](https://readthedocs.org/projects/ros2-slam-demo/badge/?version=latest)](https://ros2-slam-demo.readthedocs.io/en/latest/?badge=latest)
 
+## Documentation
+
+For detailed API documentation, installation guide, and pipeline architecture, see:
+- **[Installation & Running Guide](https://ros2-slam-frontend-l2c.readthedocs.io/en/latest/guide/install_run.html)**
+- **[Pipeline Architecture](https://ros2-slam-frontend-l2c.readthedocs.io/en/latest/guide/pipeline.html)**
+- **[API Reference](https://ros2-slam-frontend-l2c.readthedocs.io/en/latest/api/index.html)**
+
+## Workspace
+
 This workspace contains three ROS 2 Python packages aligned with lecture 2C (SLAM Frontend) sections:
 - `slam_preprocessing`: filters and deskews raw point clouds
 - `slam_feature_extraction`: extracts features (e.g., corners/planes) from filtered clouds
