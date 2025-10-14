@@ -10,7 +10,7 @@ For detailed API documentation, installation guide, and pipeline architecture, s
 - **[Pipeline Architecture](https://ros2-slam-frontend-l2c.readthedocs.io/en/latest/guide/pipeline.html)**
 - **[API Reference](https://ros2-slam-frontend-l2c.readthedocs.io/en/latest/api/index.html)**
 
-## Workspace
+<!-- ## Workspace
 
 This workspace contains three ROS 2 Python packages aligned with lecture 2C (SLAM Frontend) sections:
 - `slam_preprocessing`: filters and deskews raw point clouds
@@ -44,4 +44,4 @@ ros2 bag play <your_bag>
    ros2 launch foxglove_bridge foxglove_bridge_launch.xml
    ```
 2. In Foxglove Studio: **Open connection → Foxglove WebSocket**, URL `ws://localhost:8765`.
-3. Add **3D** and **Plot** panels, subscribe to `/points_filtered`, `/keypoints/*`, `/points_aligned`, and `/odom`.
+3. Add **3D** and **Plot** panels, subscribe to `/points_filtered`, `/keypoints/*`, `/points_aligned`, and `/odom`. -->
