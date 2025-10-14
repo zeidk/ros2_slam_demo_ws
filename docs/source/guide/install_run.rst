@@ -35,6 +35,7 @@ Build the Workspace
 .. code-block:: bash
 
    cd ~/ros2_slam_demo_ws
+   rosdep install --from-paths src --ignore-src -r -y
    colcon build --symlink-install
    source install/setup.bash
 
